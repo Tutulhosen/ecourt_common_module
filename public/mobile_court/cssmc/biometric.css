@@ -1,0 +1,58 @@
+
+.row img { border: 1px solid #336699; border-radius : 15px; box-shadow: none; width: 80%;}
+img:hover { box-shadow: 8px 8px 5px #888888;border: 3px solid #336699; background: #FFD700;}
+.tooltip{
+    font-size: 14px;
+    font-weight: bold;
+}
+.tooltip.in{
+    opacity: 1;
+}
+.tooltip-inner{
+    background-color: #5cb85c;
+    border-radius: 5px;
+    max-width: 240px;
+}
+.tooltip.bottom .tooltip-arrow {
+ border-bottom-color: #5cb85c;
+}
+.tooltip.top .tooltip-arrow {
+ border-top-color: #5cb85c;
+}
+/*.tooltip { position: relative; display: inline-block; border-bottom: 1px dotted black; }*/
+/*.tooltip .tooltiptext { background-color: #fff;border: 1px solid #95b8e7;border-radius: 10px;color: #000;left: 14px;padding: 5px 0;position: absolute;text-align: center;top: 2%;visibility: hidden;width: 120px;z-index: 1;}*/
+/*.tooltip:hover .tooltiptext { visibility: visible; }*/
+
+/*.tooltip .tooltiptext2 {background-color: #fff;border: 1px solid #95b8e7;border-radius: 10px;color: #000; left: 14px;padding: 5px 0;position: absolute;text-align: center;top: 2%;visibility: hidden; width: 120px;z-index: 1;}*/
+/*.tooltip:hover .tooltiptext2 { visibility: visible; }*/
+
+/*.tooltip .tooltiptext3 {background-color: #fff;border: 1px solid #95b8e7;border-radius: 10px;color: #000;left: 14px;padding: 5px 0;position: absolute;text-align: center;top: 2%;visibility: hidden;width: 120px;z-index: 1;}*/
+/*.tooltip:hover .tooltiptext3 { visibility: visible; }*/
+
+/*.tooltip .tooltiptext4 {background-color: #fff;border: 1px solid #95b8e7;border-radius: 10px;color: #000;left: 14px;padding: 5px 0;position: absolute;text-align: center;top: 2%;visibility: hidden;width: 120px;z-index: 1;}*/
+/*.tooltip:hover .tooltiptext4 { visibility: visible; }*/
+
+/*.tooltip .tooltiptext5 {background-color: #fff;border: 1px solid #95b8e7;border-radius: 10px;color: #000;left: 14px;padding: 5px 0;position: absolute;text-align: center;top: 2%;visibility: hidden;width: 120px;z-index: 1;}*/
+/*.tooltip:hover .tooltiptext5 { visibility: visible; }*/
+
+/*.tooltip .tooltiptext6 {background-color: #fff;border: 1px solid #95b8e7;border-radius: 10px;color: #000;left: 14px;padding: 5px 0;position: absolute;text-align: center;top: 2%;visibility: hidden;width: 120px;z-index: 1;}*/
+/*.tooltip:hover .tooltiptext6 { visibility: visible; }*/
+
+/*.tooltip .tooltiptext7 {background-color: #fff;border: 1px solid #95b8e7;border-radius: 10px; color: #000;left: 14px; padding: 5px 0;position: absolute; text-align: center;top: 2%; visibility: hidden;width: 120px; z-index: 1; }*/
+/*.tooltip:hover .tooltiptext7 { visibility: visible; }*/
+
+/*.tooltip .tooltiptext8 { background-color: #fff;border: 1px solid #95b8e7;border-radius: 10px;color: #000;left: 14px;padding: 5px 0;position: absolute;text-align: center;top: 2%;visibility: hidden;width: 120px;z-index: 1;}*/
+/*.tooltip:hover .tooltiptext8 { visibility: visible; }*/
+
+
+/*.tooltip .tooltiptext9 {background-color: #fff;border: 1px solid #95b8e7;border-radius: 10px;color: #000;left: 14px;padding: 5px 0; position: absolute;text-align: center;top: 2%;visibility: hidden;width: 120px;z-index: 1; }*/
+/*.tooltip:hover .tooltiptext9 { visibility: visible; }*/
+
+/*.tooltip .tooltiptext10 { background-color: #fff;border: 1px solid #95b8e7;border-radius: 10px;color: #000;left: 14px;padding: 5px 0;position: absolute;text-align: center;top: 2%;visibility: hidden;width: 120px;z-index: 1;}*/
+/*.tooltip:hover .tooltiptext10 { visibility: visible; }*/
+
+
+#first_name { text-align: center; color: red;font-size: 30px;}
+
+#form2 { text-align: center; margin: 15px 0;}
+

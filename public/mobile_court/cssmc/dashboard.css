@@ -1,0 +1,88 @@
+a:focus, a:hover {
+    text-decoration: none;
+}
+
+table {
+    background: white;
+    width: 750px;
+    border-collapse: collapse;
+    margin: 30px auto 0 !important;
+}
+
+thead {
+    background: #f9f9f9;
+    /*color: white;*/
+    color:#4e5154;
+    font-weight: bold;
+}
+
+thead tr > th {
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+tbody tr > td:first-child {
+    text-align: left;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+}
+
+.labels tr td {
+    background-color: #2cc16a;
+    font-weight: bold;
+    color: #fff;
+}
+
+.label tr td label {
+    display: block;
+}
+
+[data-toggle="toggle"] {
+    display: none;
+}
+
+.label_design {
+    font-size: smaller;
+    color: #683091;
+}
+
+.custom_radio {
+    transform: scale(1, 1) !important;
+    margin: 3px 4px 0px -5px !important;
+}
+
+.full_width {
+    width: 100%;
+}
+
+.black {
+    color: black !important;
+    background-color: black !important;
+}
+
+.check-local { }
+.check-upazila { }
+.check-city { padding-left:0; padding-right:0; }
+.check-metro { }
+.check-upazila .place-label,
+.check-city .place-label,
+.check-metro .place-label { font-size: 1.8rem }
+
+.chartSubText{font-size: 1.8rem}
+#block2_label, #block3_label{color: #683091;}
+
+.panel-title-dashboard{font-size: 18px;}
+
+.collaptable thead tr > th {
+     font-size: 18px !important;
+}
+
+.collaptable thead {
+    background: #f0ad4f;
+}
+

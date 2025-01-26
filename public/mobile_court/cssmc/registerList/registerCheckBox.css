@@ -1,0 +1,159 @@
+.badgebox {
+    opacity: 0;
+}
+
+.badgebox+.badge {
+    /* Move the check mark away when unchecked */
+    text-indent: -999999px;
+    /* Makes the badge's width stay the same checked and unchecked */
+    width: 27px;
+}
+
+.badgebox:focus+.badge {
+    /* Set something to make the badge looks focused */
+    /* This really depends on the application, in my case it was: */
+
+    /* Adding a light border */
+    box-shadow: inset 0px 0px 5px;
+    /* Taking the difference out of the padding */
+}
+
+.badgebox:checked+.badge {
+    /* Move the check mark back when checked */
+    text-indent: 0;
+    background-color: #8DC641;
+    border-color: #8DC641;
+}
+
+.full_width {
+    width: 100%;
+}
+
+.btn-sm {
+    margin: 5px;
+}
+
+.dataTables_info {
+    padding: 30px;
+}
+
+.table_printC {
+    overflow: scroll !important;
+    height: 500px;
+    width: 98%;
+}
+
+#data_table .scrollDataTable {
+    overflow: scroll !important;
+    height: 500px !important;
+    width: 98% !important;
+}
+
+#register_column_fields .btn-default {
+    background: #d2d5d8 !important;
+    color: #000000;
+}
+
+#register_column_fields .regiSelectLabel {
+    /*padding: 10px;*/
+    color: #000000;
+    font-size: 15px;
+    margin-left: 15px;
+
+}
+
+#register_column_fields .regiSelectLabel input {
+    margin: 10px;
+}
+
+#data_table_filter {
+    margin-right: 12px;
+    margin-bottom: 10px;
+
+}
+
+#regiDataLoder {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: none;
+}
+
+.dataLoderimg {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+#table_print {
+    display: block;
+    width: 100%;
+}
+
+#data_table_filter input {
+    color: #000000;
+}
+
+.dataTables_scrollHeadInner thead {
+    background: #008841;
+    /* background: #4c81cd; */
+}
+
+.table .sorting {
+    color: #fdfdfd;
+}
+
+.dataTables_scrollHeadInner thead tr th {
+    color: white !important;
+}
+
+/* Ensure the table takes full width but does not overflow */
+#data_table_wrapper {
+    width: 100%;
+    /* Ensures wrapper takes up full width of its container */
+    max-width: 100%;
+    /* Prevents it from exceeding the container width */
+    overflow: hidden;
+    /* Hides the scrollbars */
+    padding: 0;
+    /* Optional: Remove padding from the wrapper */
+}
+
+
+
+/* Hide the scrollbars both vertically and horizontally */
+.dataTables_scrollHead,
+.dataTables_scrollBody {
+    overflow: hidden !important;
+    /* Hide any scrollbars within the scrollable areas */
+}
+
+/* Hide the horizontal scrollbar in the table header */
+.dataTables_scrollHeadInner {
+    overflow: hidden;
+    /* Hides horizontal scrollbar in the table header */
+}
+
+/* Optionally, remove any padding or borders within the table body */
+.dataTables_scrollBody {
+    padding: 0;
+    border: none;
+    /* Optional: remove any borders */
+}
+
+#table_print {
+    padding: 30px;
+}
+
+/* Prevent scrollbars in Webkit browsers (Chrome, Safari) */
+#data_table_wrapper::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar in Webkit browsers */
+}
+
+/* Prevent scrollbars in IE and Edge */
+#data_table_wrapper {
+    -ms-overflow-style: none;
+    /* Hide scrollbars in IE and Edge */
+    scrollbar-width: none;
+    /* Hide scrollbars in Firefox */
+}
